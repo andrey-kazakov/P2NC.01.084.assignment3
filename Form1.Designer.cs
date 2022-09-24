@@ -79,6 +79,7 @@
             this.CalculateButton.TabIndex = 4;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // OutputBox
             // 
